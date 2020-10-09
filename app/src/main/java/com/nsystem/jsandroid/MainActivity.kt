@@ -14,5 +14,8 @@ class MainActivity : AppCompatActivity() {
         btnLocalWeb.setOnClickListener {
             startActivity(Intent(this, LocalWebActivity::class.java))
         }
+        btnNetworkWeb.setOnClickListener {
+            startActivity(Intent(this, NetworkWebActivity::class.java))
+        }
     }
 }
